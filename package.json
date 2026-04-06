@@ -1,0 +1,22 @@
+{
+  "name": "task-planner-skill",
+  "version": "1.0.0",
+  "description": "任务规划与执行引导 Claude Code Skill",
+  "bin": {
+    "task-planner-skill": "./install.mjs"
+  },
+  "files": [
+    "install.mjs",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "claude-code",
+    "skill",
+    "task-planner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jiangrb/task-planner.git"
+  },
+  "license": "MIT"
+}
