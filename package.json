@@ -1,18 +1,20 @@
 {
-  "name": "task-planner-skill",
-  "version": "1.0.0",
-  "description": "任务规划与执行引导 Claude Code Skill",
+  "name": "planning-toolkit",
+  "version": "2.0.0",
+  "description": "规划工具箱 - 包含任务规划与计划审查等 Claude Code Skills",
   "bin": {
-    "task-planner-skill": "./install.mjs"
+    "planning-toolkit": "./install.mjs"
   },
   "files": [
     "install.mjs",
-    "SKILL.md"
+    "skills/"
   ],
   "keywords": [
     "claude-code",
     "skill",
-    "task-planner"
+    "task-planner",
+    "plan-review",
+    "planning"
   ],
   "repository": {
     "type": "git",
